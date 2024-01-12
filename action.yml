@@ -7,7 +7,7 @@ runs:
       run: |
         echo "HELLO WORLD"
         echo "_ACTIONS LS v3"
-        ls -a /__w/_actions/actions/checkout/v3
+        ls -a /__w/_actions/actions/
 
         echo "_ACTIONS LS v3/src"
         ls -a /__w/_actions/actions/checkout/v3/src
