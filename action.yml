@@ -7,8 +7,7 @@ runs:
       run: |
         echo "HELLO WORLD"
         echo "_ACTIONS LS actions"
-        ls -a /__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action
-
+        ls -a /__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
 
         echo "_ACTIONS LS actions/cache/v3"
         ls -a /__w/_actions/actions/cache/v3
