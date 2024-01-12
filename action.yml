@@ -8,11 +8,16 @@ runs:
         echo "HELLO WORLD"
         echo "_ACTIONS LS v3"
         ls -a /__w/_actions/actions/checkout/v3
-        echo "_ACTIONS LS v3.completed"
-        ls -a /__w/_actions/actions/checkout/v3.completed
-        echo "GH-CONTAINERS LS"
-        ls -a /__w/gh-containers/gh-containers
+
+        echo "_ACTIONS LS v3/src"
+        ls -a /__w/_actions/actions/checkout/v3/src
+
+        echo "_ACTIONS LS v3/action.yml"
+        cat /__w/_actions/actions/checkout/v3/action.yml
+
+
         # ls -a ${{ github.action_path }}
+        echo "GH ACTION PATH v3"
         echo "${{ github.action_path }}"
         pwd
         ls -a
