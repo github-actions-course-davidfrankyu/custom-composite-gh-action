@@ -6,10 +6,10 @@ runs:
     - name: ECHO STUFF
       run: |
         echo "HELLO WORLD"
-        cat "_ACTIONS LS actions/cache/v3"
-        cat /__w/_actions/actions/cache/v3
+        echo "_ACTIONS LS actions/cache/v3"
+        cat /__w/_actions/actions/cache/v3/action.yml
 
-        
+
 
         echo "_ACTIONS LS actions/cache/v3"
         ls -a /__w/_actions/actions/cache/v3
