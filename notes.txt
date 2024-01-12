@@ -1,0 +1,10 @@
+# WHEN INSIDE THE CONTAINER:
+/home/runner/work/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
+/__w/gh-containers/gh-containers
+
+
+# WHEN OUTSIDE THE CONTAINER:
+/home/runner/work/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
+/home/runner/work/gh-containers/gh-containers
+
+
