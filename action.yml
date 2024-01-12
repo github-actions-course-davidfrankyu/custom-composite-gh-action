@@ -6,6 +6,7 @@ runs:
     - name: ECHO STUFF
       run: |
         echo "HELLO WORLD"
+        echo "${{ github.action_path }}"
         pwd
         ls -a
       shell: bash
