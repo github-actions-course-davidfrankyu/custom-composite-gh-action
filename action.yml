@@ -7,7 +7,7 @@ runs:
       run: |
         echo "HELLO WORLD"
         echo "_ACTIONS LS"
-        ls -a /__w/_actions/actions
+        ls -a /__w/_actions/actions/checkout
         echo "GH-CONTAINERS LS"
         ls -a /__w/gh-containers
         # ls -a ${{ github.action_path }}
