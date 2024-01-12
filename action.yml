@@ -6,9 +6,8 @@ runs:
     - name: ECHO STUFF
       run: |
         echo "HELLO WORLD"
-        echo "_ACTIONS LS actions/cache"
-        ls -a /__w/_actions/actions/cache
-
+        echo "_ACTIONS LS actions/cache/v3"
+        ls -a /__w/_actions/actions/cache/v3
 
 
 
