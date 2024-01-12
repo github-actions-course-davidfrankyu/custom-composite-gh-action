@@ -7,18 +7,17 @@ runs:
       run: |
         echo "HELLO WORLD"
         echo "_ACTIONS LS actions"
-        ls -a /__w/_actions/github-actions-course-davidfrankyu
+        ls -a /__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action
+
 
         echo "_ACTIONS LS actions/cache/v3"
         ls -a /__w/_actions/actions/cache/v3
-
 
         echo "_ACTIONS LS checkout/v3/src"
         ls -a /__w/_actions/actions/checkout/v3/src
 
         echo "_ACTIONS LS v3/action.yml"
         cat /__w/_actions/actions/checkout/v3/action.yml
-
 
         # ls -a ${{ github.action_path }}
         echo "GH ACTION PATH v3"
