@@ -3,8 +3,11 @@
 /__w/gh-containers/gh-containers
 
 
-# WHEN OUTSIDE THE CONTAINER:
+# WHEN OUTSIDE THE CONTAINER:  ${{ github.action_path }}
 /home/runner/work/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
 /home/runner/work/gh-containers/gh-containers
 
 
+
+# CORRET CONTAINER PATH
+/__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main

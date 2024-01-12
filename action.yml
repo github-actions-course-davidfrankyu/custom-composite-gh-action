@@ -6,6 +6,8 @@ runs:
     - name: ECHO STUFF
       run: |
         echo "HELLO WORLD"
+        echo '${{ toJson(github) }}' | jq
+
         echo "_ACTIONS LS actions"
         ls -a /__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
 
