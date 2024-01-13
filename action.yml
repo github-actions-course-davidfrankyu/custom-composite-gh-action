@@ -7,5 +7,5 @@ runs:
       shell: bash
       run: |
         echo "HELLO WORLD"
-        ls -a /
+        ls -a /home
         # ls -a ${{ github.action_path }}
