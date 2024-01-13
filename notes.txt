@@ -8,6 +8,13 @@
 /home/runner/work/gh-containers/gh-containers
 
 
-
 # CORRET CONTAINER PATH
 /__w/_actions/github-actions-course-davidfrankyu/custom-composite-gh-action/main
+
+
+# NOTES:
+- when your job runs directly on a GH actions runner, the runner uses its own file system
+- when your job runs in a container, the steps of the job run inside the container
+- GH actions maps the working directory from the runner to the container, but the path is different
+- consequently, actions are checked out to __w/_actions
+
