@@ -7,4 +7,4 @@ runs:
       shell: bash
       run: |
         echo "HELLO WORLD"
-        ls -a /home
+        ls -a /home/runner
